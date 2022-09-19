@@ -41,8 +41,6 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
-  position: relative;
-  width: 360px;
 }
 
 /* ====================================
@@ -50,7 +48,7 @@ video {
 // ==================================== */
 
 header {
-  padding-bottom: 50px;
+  padding: 0px 0px 70px 0px;
 }
 
 .grey-recangle {
@@ -62,10 +60,10 @@ header {
 }
 
 .container {
-  max-width: 360px;
   position: relative;
-  margin-bottom: 60px;
-  display: inline;
+  margin: 0px 15px;
+  margin-bottom: 20px;
+  width: 360px;
 }
 
 .red-square {
@@ -82,12 +80,50 @@ header {
   height: 50px;
   background-color: green;
   position: absolute;
-  right: 0px;
-  top: 0px;
+  right: 10px;
+  top: 10px;
 }
 
 .transparent-block-01 {
-  background-color: red;
+  background-color: rgba(255, 255, 255, 0.578);
   width: 360px;
-  height: 50px;
+  height: 44px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.transparent-block-02 {
+  background-color: rgba(255, 255, 255, 0.578);
+  width: 320px;
+  height: 165px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.square {
+  height: 20px;
+  width: 20px;
+  background-color: red;
+}
+
+.white-rectangle-02 {
+  width: 71px;
+  height: 44px;
+  background-color: red;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
